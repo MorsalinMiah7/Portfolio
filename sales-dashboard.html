@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analytics Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-gray-800 bg-opacity-40 text-white p-4 shadow-md fixed top-0 left-0 w-full z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-4 text-lg font-bold">
+                <img src="assets/Photo/morsalins photo.jpg" alt="Morsalin Miah" class="w-10 h-10 rounded-full object-cover">
+                <a href="index.html" class="hover:text-blue-300 transition">Morsalin Miah</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-toggle" class="text-white focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            <ul class="hidden md:flex space-x-6 items-center font-semibold">
+                <li><a href="index.html" class="hover:text-blue-600 transition">Home</a></li>
+                <li><a href="work-experience.html" class="hover:text-blue-600 transition">Experience</a></li>
+                <li><a href="projects.html" class="hover:text-blue-600 transition">Projects</a></li>
+                <li><a href="achievements.html" class="hover:text-blue-600 transition">Achievements</a></li>
+                <li><a href="#about" class="hover:text-blue-600 transition">About</a></li>
+                <li><a href="#contact" class="hover:text-blue-600 transition">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden bg-gray-800 bg-opacity-70 text-white p-4 fixed top-16 left-0 w-full z-50 shadow-md md:hidden">
+        <a href="index.html" class="block py-2 hover:text-blue-500">Home</a>
+        <a href="work-experience.html" class="block py-2 hover:text-blue-500">Experience</a>
+        <a href="projects.html" class="block py-2 hover:text-blue-500">Projects</a>
+        <a href="#about" class="block py-2 hover:text-blue-500">About</a>
+        <a href="achievements.html" class="block py-2 hover:text-blue-500">Achievements</a>
+        <a href="#contact" class="block py-2 hover:text-blue-500">Contact</a>
+    </div>
+
+    <!-- Dashboard Section -->
+<div class="container mx-auto p-6 mt-20">
+    <h1 class="text-4xl font-bold text-center mb-6">Sales & Profit Dashboard</h1>
+    <p class="text-lg text-center mb-6">A professional dashboard for business insights, tracking key performance metrics, and visualizing sales and profit trends.</p>
+
+    <div class="bg-white rounded-lg shadow-md p-6">
+        <div class="mt-2 items-center justify-center flex">
+            <a href="https://github.com/MorsalinMiah7/Sales-Profit-Dashboard-" target="_blank" class="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition">View Project on GitHub</a>
+        </div>
+        <h2 class="text-2xl font-semibold mb-4">Key Features</h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li><strong>Key Metrics Overview:</strong> Highlight total sales and total profit for quick performance snapshots. This feature allows users to quickly assess the overall health of their business at a glance.</li>
+            <li><strong>Profit by Year Chart:</strong> Visualize yearly profit trends to identify growth opportunities. This chart helps in understanding how profits have changed over the years, enabling strategic planning.</li>
+            <li><strong>Sales Breakdown by Category:</strong> Dive deep into sales distribution across categories. This analysis helps businesses identify which categories are performing well and which may need attention.</li>
+            <li><strong>Customer Count by Year:</strong> Analyze customer engagement trends with a detailed pie chart. Understanding customer growth or decline over the years can inform marketing and sales strategies.</li>
+            <li><strong>Sales by State Map:</strong> Understand your geographical performance with a sales heatmap. This interactive feature allows users to visualize where their sales are coming from, helping to target specific regions for growth.</li>
+            <li><strong>Monthly Sales Trends:</strong> Spot performance patterns with easy-to-read monthly trends. This feature aids in identifying seasonal trends and making informed inventory decisions.</li>
+            <li><strong>Top 5 Customers Profits:</strong> Identify and focus on your most valuable customers. Recognizing high-value clients can lead to better customer relationship management and targeted marketing efforts.</li>
+        </ul>
+        
+        <h2 class="text-2xl font-semibold mt-6 mb-4">What’s Covered?</h2>
+        <ul class="list-disc list-inside space-y-2 text-gray-700">
+            <li>📊 <strong>Data Preparation and Data Cleaning:</strong> Ensuring that your data is accurate and ready for analysis is crucial. This step involves removing duplicates, correcting errors, and formatting data for consistency.</li>
+            <li>📈 <strong>Creating PivotTables to Summarize Key Metrics:</strong> PivotTables are powerful tools for summarizing large datasets. They allow users to quickly analyze and extract meaningful insights from their data.</li>
+            <li>🎨 <strong>Designing Charts and Visual Elements:</strong> Visual representation of data is key to understanding trends and patterns. This section covers how to create visually appealing and informative charts that enhance data comprehension.</li>
+            <li>🎯 <strong>Building a Professional Dashboard Layout:</strong> A well-structured dashboard layout is essential for effective data presentation. This includes organizing elements for easy navigation and ensuring that key metrics are prominently displayed.</li>
+        </ul>
+    
+        <h2 class="text-2xl font-semibold mt-6 mb-4">Why This Matters</h2>
+        <p class="text-gray-700 mb-4">In today's data-driven world, having access to clear and actionable insights is vital for business success. This dashboard not only provides a comprehensive overview of your business performance but also equips you with the tools needed to make informed decisions. By leveraging these features, you can identify growth opportunities, optimize your sales strategies, and ultimately drive profitability.</p>
+    
+        <h2 class="text-2xl font-semibold mt-6 mb-4">Get Started Today!</h2>
+        <p class="text-gray-700">Ready to take your business insights to the next level? Start utilizing these features to transform your data into actionable strategies. Whether you're a small business owner or part of a larger organization, this dashboard is designed to meet your analytical needs.</p>
+    </div>
+
+    <div class="mt-6">
+        <h2 class="text-2xl font-semibold mb-4 text-center border-2 bg-blue-500 rounded-xl">Project Screenshot </h2>
+        <div class="flex justify-center">
+            <img src="assets/Photo_Project/SAPD.png" alt="Dashboard Screenshot" class="rounded-lg shadow-md">
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<section id="contact" class="mb-6">
+    <div class="container mx-auto px-4 md:px-8 shadow-lg text-center p-5 border-t-4 border-blue-500 rounded-lg">
+        <h2 class="text-3xl font-bold text-gray-800">Get in Touch</h2>
+        <p class="text-lg text-gray-600 mt-2">Feel free to connect with me through any of the platforms below:</p>
+        <!-- Social Media Links -->
+        <div class="mt-8 flex justify-center space-x-8">
+            <!-- Email Link -->
+            <a href="mailto:ornabbiswass@gmail.com" class="text-2xl text-gray-800 hover:text-blue-600">
+                <i class="fas fa-envelope h-8 w-8"></i>
+            </a>
+            <!-- WhatsApp Link -->
+            <a href="https://wa.me/8801852128663" target="_blank" class="text-2xl text-gray-800 hover:text-blue-600">
+                <i class="fab fa-whatsapp h-8 w-8"></i>
+            </a>
+            <!-- GitHub Link -->
+            <a href="https://github.com/Ornab95" target="_blank" class="text-2xl text-gray-800 hover:text-blue-600">
+                <i class="fab fa-github h-8 w-8"></i>
+            </a>
+            <!-- LinkedIn Link -->
+            <a href="https://www.linkedin.com/in/ornabbiswass/" target="_blank" class="text-2xl text-gray-800 hover:text-blue-600">
+                <i class="fab fa-linkedin h-8 w-8"></i>
+            </a>
+        </div>
+        
+    </div>
+</section>
+    <!-- JavaScript -->
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', () => {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
