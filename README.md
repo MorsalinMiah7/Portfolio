@@ -1,8 +1,8 @@
-# Ornab Biswass - Personal Portfolio Website
+# MORSALIN MIAH - Personal Portfolio Website
 
 ## Overview
 
-Welcome to my personal portfolio website! This site showcases my skills, projects, work experience, and more. Built using **HTML**, **Tailwind CSS**, and **JavaScript**, the website highlights my expertise as a Junior Software Engineer and includes separate pages for my projects and work experience.
+Welcome to my personal portfolio website! This site showcases my skills, projects, work experience, and more. Built using **HTML**, **Tailwind CSS**, and **JavaScript**, the website highlights my expertise and includes separate pages for my projects and work experience.
 
 ## Features
 
@@ -20,11 +20,11 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 ## Pages
 
 - **Home Page**: Introduction to who I am, with navigation to other sections.
-- **Projects Page**: A comprehensive list of projects I’ve worked on, including my Talent Acquisition System, SEU Admission System front-end, and more.
-- **Work Experience Page**: Highlights my roles, including IT Intern at Southeast University and Campus Ambassador experiences.
+- **Projects Page**: A comprehensive list of projects I’ve worked on.
+- **Work Experience Page**: Highlights my roles, including IT Intern at Southeast University and Research assistant experiences.
 
 ## How to Use
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Ornab95/portfolio-website.git
+   git clone https://github.com/MorsalinMiah7/Portfolio.git
