@@ -35,6 +35,7 @@ Here are some of my key projects showcasing my expertise in data analytics and v
 📧 **Email:** [info.morsalin.miah@gmail.com](mailto:info.morsalin.miah@gmail.com)  
 🔗 **LinkedIn:** [Morsalin Miah](https://www.linkedin.com/in/morsalin-miah)  
 🐙 **GitHub:** [MorsalinMiah7](https://github.com/MorsalinMiah7)  
+📞 **WhatsAPP** +880 1866368189
 
 ---
 
